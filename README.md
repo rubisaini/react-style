@@ -7,6 +7,7 @@ A React application uses styles property in different ways:
 ## Style 2: Internal 
   `render(){
         const footer =` `.footer {background-color: green}`
+        
         `return (
             <div className="footer">
             <style>{footer}</style>
@@ -15,5 +16,5 @@ A React application uses styles property in different ways:
     }`
 
 
-##Style 3: Create a css/scss file 
+## Style 3: Create a css/scss file 
 Create separate files for css/scss and inject these files in component
