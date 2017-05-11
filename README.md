@@ -6,11 +6,10 @@ A React application uses styles property in different ways:
 
 ## Style 2: Internal 
   `render(){
-        const footer = ".footer {background-color: green"
-        }
+        const footer = '.footer {background-color: green}'
         
         return (
-            <div className="footer">
+            <div className='footer'>
             <style>{footer}</style>
             </div>
         )
